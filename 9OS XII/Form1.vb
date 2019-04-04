@@ -10,7 +10,7 @@
             Me.Hide()
             System.Diagnostics.Debug.WriteLine("We are done here. Hiding Boot Image!")
         Else
-            ' Do Nothing
+            System.Diagnostics.Debug.WriteLine("Not ready for boot image, returning to loop!")
         End If
     End Sub
 
