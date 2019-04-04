@@ -9,3 +9,6 @@ C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debu
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\9OS XII.pdb
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.PreUserArena.resources
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.PreUserChangelog.resources
+C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.LoginServer.resources
+C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.Login.resources
+C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.DebugController.resources

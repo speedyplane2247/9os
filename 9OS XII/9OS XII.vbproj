@@ -72,11 +72,29 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Boot Process\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
+    <Compile Include="Boot Process\Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoreOS\LoginServer.Designer.vb">
+      <DependentUpon>LoginServer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CoreOS\LoginServer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreUserMode\DebugController.Designer.vb">
+      <DependentUpon>DebugController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreUserMode\DebugController.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreUserMode\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreUserMode\Login.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,22 +112,31 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PreUserArena.Designer.vb">
+    <Compile Include="PreUserMode\PreUserArena.Designer.vb">
       <DependentUpon>PreUserArena.vb</DependentUpon>
     </Compile>
-    <Compile Include="PreUserArena.vb">
+    <Compile Include="PreUserMode\PreUserArena.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PreUserChangelog.Designer.vb">
+    <Compile Include="PreUserMode\PreUserChangelog.Designer.vb">
       <DependentUpon>PreUserChangelog.vb</DependentUpon>
     </Compile>
-    <Compile Include="PreUserChangelog.vb">
+    <Compile Include="PreUserMode\PreUserChangelog.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Boot Process\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoreOS\LoginServer.resx">
+      <DependentUpon>LoginServer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreUserMode\DebugController.resx">
+      <DependentUpon>DebugController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreUserMode\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -117,10 +144,10 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="PreUserArena.resx">
+    <EmbeddedResource Include="PreUserMode\PreUserArena.resx">
       <DependentUpon>PreUserArena.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PreUserChangelog.resx">
+    <EmbeddedResource Include="PreUserMode\PreUserChangelog.resx">
       <DependentUpon>PreUserChangelog.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -134,6 +161,9 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Login\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
