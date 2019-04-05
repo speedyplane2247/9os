@@ -1,7 +1,6 @@
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\bin\Debug\9OS XII.exe
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\bin\Debug\9OS XII.pdb
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\bin\Debug\9OS XII.xml
-C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.Form1.resources
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.Resources.resources
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\9OS XII.vbproj.GenerateResource.Cache
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\9OS XII.exe
@@ -12,3 +11,6 @@ C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debu
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.LoginServer.resources
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.Login.resources
 C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.DebugController.resources
+C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.Splash.resources
+C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.BootServer.resources
+C:\Users\Noah\documents\visual studio 2010\Projects\9OS XII\9OS XII\obj\x86\Debug\_9OS_XII.CoreOSKernel.resources

@@ -72,11 +72,11 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Boot Process\Form1.vb">
+    <Compile Include="Boot Process\Splash.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Boot Process\Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Boot Process\Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CoreOS\LoginServer.Designer.vb">
@@ -85,16 +85,28 @@
     <Compile Include="CoreOS\LoginServer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Boot Process\BootServer.Designer.vb">
+      <DependentUpon>BootServer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Boot Process\BootServer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoreOS\CoreOSKernel.Designer.vb">
+      <DependentUpon>CoreOSKernel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CoreOS\CoreOSKernel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PreUserMode\DebugController.Designer.vb">
       <DependentUpon>DebugController.vb</DependentUpon>
     </Compile>
     <Compile Include="PreUserMode\DebugController.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PreUserMode\Login.Designer.vb">
+    <Compile Include="Login\Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
-    <Compile Include="PreUserMode\Login.vb">
+    <Compile Include="Login\Login.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -118,24 +130,30 @@
     <Compile Include="PreUserMode\PreUserArena.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PreUserMode\PreUserChangelog.Designer.vb">
+    <Compile Include="Applications\PreUserChangelog.Designer.vb">
       <DependentUpon>PreUserChangelog.vb</DependentUpon>
     </Compile>
-    <Compile Include="PreUserMode\PreUserChangelog.vb">
+    <Compile Include="Applications\PreUserChangelog.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Boot Process\Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Boot Process\Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CoreOS\LoginServer.resx">
       <DependentUpon>LoginServer.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Boot Process\BootServer.resx">
+      <DependentUpon>BootServer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoreOS\CoreOSKernel.resx">
+      <DependentUpon>CoreOSKernel.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PreUserMode\DebugController.resx">
       <DependentUpon>DebugController.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PreUserMode\Login.resx">
+    <EmbeddedResource Include="Login\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -147,7 +165,7 @@
     <EmbeddedResource Include="PreUserMode\PreUserArena.resx">
       <DependentUpon>PreUserArena.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PreUserMode\PreUserChangelog.resx">
+    <EmbeddedResource Include="Applications\PreUserChangelog.resx">
       <DependentUpon>PreUserChangelog.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -162,9 +180,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Login\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

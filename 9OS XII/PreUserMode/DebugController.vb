@@ -20,5 +20,15 @@
             ' this string will be part of the system once the larger plan I'm working on is fully ready.
             Me.Close() ' actually kill the program.
         End If
+        If TextBox1.Text = "kill kernel" Then
+            System.Diagnostics.Debug.WriteLine("System is going to go down.")
+            System.Diagnostics.Debug.WriteLine("Executed command to kill kernel.`")
+            CoreOSKernel.killKernel() ' ez as that?
+        End If
+        If TextBox1.Text = "kill system" Then
+            System.Diagnostics.Debug.WriteLine("System is going to go down hard.")
+            System.Diagnostics.Debug.WriteLine("Executed command to kill systen.")
+            CoreOSKernel.shutdown() ' ez as that!
+        End If
     End Sub
 End Class
