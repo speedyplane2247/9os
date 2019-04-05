@@ -30,4 +30,16 @@
         End If
         Return "done>"
     End Function
+    Public Function altreset()
+        ' reset in case of can't find / doesn't exist.
+        System.Diagnostics.Debug.WriteLine("reseting tables.")
+        MsgBox("You are trying to reset Login Tables. Doing this requires an at least 64 MB U:\ drive that is empty. Ensure this exists before continueing.")
+        System.Diagnostics.Debug.WriteLine("user allows continue.")
+        Shell("C:\Windows\System32\cmd.exe /k mkdir U:\9osxil")
+        Shell("C:\Windows\System32\cmd.exe /k mkdir U:\9osxil\lt")
+        Shell("C:\Windows\System32\cmd.exe /k echo boot > U:\9osxil\lt\fpw.k")
+        Shell("C:\Windows\System32\cmd.exe /k echo boot > U:\9osxil\lt\fur.k")
+        MsgBox("Login tables rebuilt. Username & password is 'boot'.")
+        Return "done>"
+    End Function
 End Class

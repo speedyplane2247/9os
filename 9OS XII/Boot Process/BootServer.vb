@@ -5,7 +5,7 @@
     ' ; 214 : Current Build Number
     ' ; 04042019 : MON/DATE/YEAR
     ' ; 0802PMEST : 12 hour time w/ PM/AM selector + timezone
-    Public BuildString = "9os12_alpha-build-214@04042019/0802PMEST"
+    Public BuildString = "9os12_alpha-build-217@04042019/0821PMEST"
 
     Private Sub BootServer_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.Hide() ' get rekt #2, i'm new #1 and too lazy to remove previous commetn!

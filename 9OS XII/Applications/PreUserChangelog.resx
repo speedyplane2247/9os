@@ -120,6 +120,9 @@
   <data name="RichTextBox1.Text" xml:space="preserve">
     <value>Welcome to 9OS 12! If you see this message, that is a good sign! Here's a changelog.
 
+NEW IN ALPHA 4:
+** USE reset tables COMMAND TO RESET LOGIN TABLES / BUILD NEW! **
+
 DP 2
 + Added this Changelog Screen
 + Added better logging
@@ -140,6 +143,12 @@ Alpha 3
 + Added a base kernel
 + Added a BootServer that won't hard shutdown the machine without permission from kernel.
 * Organized the source code
-+ Added 2 commands to kill either the system or the kernel server.</value>
++ Added 2 commands to kill either the system or the kernel server.
+Alpha 4
+* Added major improvements to login server
++ Added usuable login UI
++ Added kernel reset function, as the login server requests an invalid directory.
+* Adds a requirement for a 64 MB+ U:\ drive for 9OS data.
++ Adds a login window from 'show login' as a debug argument. Tells you if your password matches the one on file.</value>
   </data>
 </root>

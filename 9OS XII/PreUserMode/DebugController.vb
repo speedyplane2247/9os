@@ -8,8 +8,8 @@
         If TextBox1.Text = "show login" Then
             System.Diagnostics.Debug.WriteLine("Showing login prompt.")
             System.Diagnostics.Debug.WriteLine("Executed command : 'show login'")
-            LoginServer.Show()
-            LoginServer.Hide() ' should do this, but for compatibility here it is.
+            ' LoginServer.Show()
+            ' LoginServer.Hide() ' should do this, but for compatibility here it is.
             Login.Show()
         End If
         If TextBox1.Text = "disable debug" Then
@@ -29,6 +29,9 @@
             System.Diagnostics.Debug.WriteLine("System is going to go down hard.")
             System.Diagnostics.Debug.WriteLine("Executed command to kill systen.")
             CoreOSKernel.shutdown() ' ez as that!
+        End If
+        If TextBox1.Text = "reset table" Then
+            CoreOSKernel.altreset()
         End If
     End Sub
 End Class

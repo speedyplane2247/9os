@@ -27,6 +27,7 @@ Partial Class Splash
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -52,13 +53,25 @@ Partial Class Splash
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(179, 13)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Alpha 3 - 4/4/2019 @ 8:03 PM EST"
+        Me.Label1.Text = "Alpha 4 - 4/4/2019 @ 8:21 PM EST"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(779, 637)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(501, 83)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Usered Release"
         '
         'Splash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1280, 720)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -72,5 +85,6 @@ Partial Class Splash
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class
