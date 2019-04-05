@@ -50,6 +50,7 @@ Partial Class DebugController
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
         Me.Name = "DebugController"
         Me.Text = "DebugController"
         Me.ResumeLayout(False)

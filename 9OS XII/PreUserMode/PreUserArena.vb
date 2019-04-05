@@ -1,7 +1,7 @@
 ﻿Imports System.Windows.Forms
 
 Public Class PreUserArena
-    Dim isDebugBuild = 1
+    Public isDebugBuild = 1
     Private Sub PreUserArena_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         ' Welcome to the PreUserArena - the Area where nothing but the Login Window should run.
         System.Diagnostics.Debug.WriteLine("Loaded PUA mode.")

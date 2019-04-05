@@ -129,6 +129,12 @@ Alpha 1
 + Added a not-yet-implemented login system.
 * Much better source code organization
 + Added a semi-implemented Debug Console.
-+ Added a pua build flag for if the build is a debug build.</value>
++ Added a pua build flag for if the build is a debug build.
+Alpha 2
++ Added 'show login' to test the semi-implemented login server
+* Console is now implemented fully
+* Fixed some logging errors
+- Removed the maximize button from the Debug Controller.
+* Added simulated kernel hangs for debug</value>
   </data>
 </root>

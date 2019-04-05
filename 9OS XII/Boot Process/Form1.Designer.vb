@@ -52,7 +52,7 @@ Partial Class Form1
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(179, 13)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Alpha 1 - 4/4/2019 @ 6:56 PM EST"
+        Me.Label1.Text = "Alpha 2 - 4/4/2019 @ 7:51 PM EST"
         '
         'Form1
         '
